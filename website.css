@@ -5,6 +5,10 @@ Created June 12, 2020
 Last updated June 12, 2020
 
 */
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 #HomePage {
 	display: flex;
 	flex-direction: column;
