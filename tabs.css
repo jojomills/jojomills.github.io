@@ -54,9 +54,11 @@ body {
 	text-align: center;
 	font-family: "Courier New", Courier, monospace;
 }
-#wildcat{
-	width: 30px;
-	height: 30px;
+#arizona img{
+	width: 70px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 #contact-info {
