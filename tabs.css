@@ -48,12 +48,16 @@ body {
 	justify-content: center;
 	margin-left: 10%;
 	margin-right: 10%;
+	flex-direction: column;
 }
 #arizona-text {
-	min-height: 420px;
-	min-width: 355px;
 	text-align: center;
 	font-family: "Courier New", Courier, monospace;
+}
+#wildcat{
+	width: 30px;
+	height: 30px;
+
 }
 #contact-info {
 	font-size: 170%;
@@ -98,12 +102,6 @@ body {
 	text-align: left;
 	padding-left: 30px;
 	margin-right: 10px;
-}
-
-#arizona img {
-	width: 300px;
-	height: 415px;
-	border: solid 2px black;
 }
 
 .experiencePic {
