@@ -5,6 +5,9 @@ Created June 12, 2020
 Last updated June 12, 2020
 
 */
+
+/* || HOME PAGE */
+
 body {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -12,8 +15,8 @@ body {
 #HomePage {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
+
 #main {
 	background-size: cover;
 	overflow: hidden;
@@ -25,10 +28,13 @@ body {
 	width: 100%;
 	height: 100vh;
 }
-#menu {
+#menu{
 	display: flex;
+	margin: 0 auto;
 	justify-content: center;
 	position: relative;
+	width: 80%;
+
 }
 #menu a{
 	border: solid 2px black;
@@ -40,15 +46,13 @@ body {
 	margin-bottom: 15px;
 	margin-top: 10px;
 	padding: 3px;
-
+	position: relative;
 }
-#menu a:hover {
+
+#menu a:hover{
 	color: #CD5C5C;
-	border: solid 3px #CD5C5C;
-	margin-bottom: 14px;
-	margin-top: 9px;
-	margin-right: 1;
-	margin-left: 1;
+	border: solid 2.5px #CD5C5C;
+	padding: 2.5px;
 
 }
 #name {
@@ -71,6 +75,32 @@ body {
 	margin: 0;
 	font-weight: 100;
 }
+
+#linkedin img{
+	width: 2.5%;
+	position: absolute;
+	margin-left: 91%;
+}
+#resume{
+	border: solid 2px black;
+	position: absolute;
+	font-family: Arial, Helvetica;
+	font-size: 1vw;
+	color: black;
+	padding: 3px;
+	margin-left: 94%;
+
+}
+
+#links a:hover{
+	border: solid 2.5px #CD5C5C;
+	color: #CD5C5C;
+	padding: 2.5px;
+
+}
+
+
+
 
 
 
