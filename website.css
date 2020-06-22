@@ -16,7 +16,16 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
+#linkedin img{
+	width: 2.5%;
+	position: absolute;
+	margin-left: 91%;
+}
+#links a:hover{
+	border: solid 2.5px #CD5C5C;
+	color: #CD5C5C;
+	padding: 2.5px;
+}
 #main {
 	background-size: cover;
 	overflow: hidden;
@@ -58,6 +67,15 @@ body {
 #name {
 	font-size: 3vw;
 }
+#resume{
+	border: solid 2px black;
+	position: absolute;
+	font-family: Arial, Helvetica;
+	font-size: 1vw;
+	color: black;
+	padding: 3px;
+	margin-left: 94%;
+}
 #textMain{
 	border: solid 3px #CD5C5C;
 	font-size: 2vw;
@@ -75,30 +93,75 @@ body {
 	margin: 0;
 	font-weight: 100;
 }
+/* || END HOME PAGE */
 
-#linkedin img{
-	width: 2.5%;
-	position: absolute;
-	margin-left: 91%;
-}
-#resume{
-	border: solid 2px black;
-	position: absolute;
-	font-family: Arial, Helvetica;
-	font-size: 1vw;
+/* ||  ABOUT ME */
+#about-text{
 	color: black;
-	padding: 3px;
-	margin-left: 94%;
+	
+	margin-top: 0;
+	font-family: "Courier New", Courier, monospace;
+}
+.title {
+	display: flex;
+	font-family: "Courier New", Courier, monospace;
+	justify-content: center;
+	align-items: center;
+	white-space: nowrap;
 
 }
-
-#links a:hover{
-	border: solid 2.5px #CD5C5C;
-	color: #CD5C5C;
-	padding: 2.5px;
+.title:before, .title:after {
+	width: 10%;
+	height: 2px;
+	content: '';
+	background-color: black;
+	margin: 0 15px;
 
 }
+#goals-text {
+	text-align: center;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 25px;
+}
+#facts{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
 
+}
+.fact-box {
+	font-size: 20px;
+	border: solid 2px black;
+	width: 270px;
+	height: 216px;
+	margin-top: 20px;
+	background-size: cover;
+	position: relative;
+
+}
+.fact-box div {
+	background-color: white;
+	opacity: 0.5;
+
+	position: absolute;
+}
+
+/* ||  END ABOUT ME */
+
+/* ||  EDUCATION */
+/* ||  END EDUCATION */
+
+/* ||  SKILLS */
+/* ||  END SKILLSE */
+
+/* ||  EXPERIENCE */
+/* ||  END EXPERIENCE */
+
+/* ||  CONTACT */
+/* ||  END CONTACT */
 
 
 
