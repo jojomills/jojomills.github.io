@@ -133,6 +133,7 @@ body {
 
 }
 .fact-box {
+	font-weight: bold;
 	font-size: 20px;
 	border: solid 2px black;
 	width: 270px;
