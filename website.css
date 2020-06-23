@@ -129,7 +129,9 @@ body {
 .fact-box div {
 	background-color: white;
 	opacity: 0.5;
-
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-o-opacity: 0.5;
 	position: absolute;
 }
 
