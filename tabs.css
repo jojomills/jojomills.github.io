@@ -20,14 +20,7 @@ body {
 	font-size: 175%;
 
 }
-#technical-skills {
-	width: 55%;
-}
-#personal-skills {
-	margin-left: 5%;
-	width: 45%;
 
-}
 
 #allExperience, .text-and-pic{
 	display: inline-flex;
@@ -164,7 +157,8 @@ body {
 	padding: 0;
 }
 #graph li {
-	height: 30px;
+	height: 20%;
+	min-height: 30px;
 	color: white;
 	font-size: 125%;
 	text-align: left;
@@ -195,12 +189,12 @@ body {
 	overflow: hidden;
 }
 #skill-icons div {
-	width: 150px;
+	width: 170px;
 	overflow: hidden;
 	font-size: 17px;
 }
 #skill-icons img {
-	width: 80px;
+	width: 90px;
 	height: auto;
 	
 }
@@ -208,6 +202,17 @@ body {
 #skills-mention a{
 	color: grey;
 	text-decoration: none;
+
+}
+
+#technical-skills {
+	width: 55%;
+}
+#personal-skills {
+	margin-left: 5%;
+	min-width: 340px;
+	max-width: 510px;
+
 
 }
 

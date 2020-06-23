@@ -119,8 +119,10 @@ body {
 .fact-box {
 	font-size: 20px;
 	border: solid 2px black;
-	width: 270px;
-	height: 216px;
+	width: 18%;
+	height: auto;
+	min-width: 270px;
+	min-height: 216px;
 	margin-top: 20px;
 	background-size: cover;
 	position: relative;
