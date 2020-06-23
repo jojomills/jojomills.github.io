@@ -3,7 +3,6 @@ Josephine Mills
 Personal Website
 Created June 12, 2020
 Last updated June 12, 2020
-
 */
 
 /* || HOME PAGE */
@@ -13,23 +12,26 @@ body {
 	margin-left: 0px;
 }
 #HomePage {
-	display: flex;
 	flex-direction: column;
+}
+#HomePage, #menu, .title {
+	display: flex;
 }
 #linkedin img{
 	width: 2.5%;
-	position: absolute;
 	margin-left: 91%;
 }
-#links a:hover{
-	border: solid 2.5px #CD5C5C;
-	color: #CD5C5C;
+#linkedin img, #resume, #textMain{
+	position: absolute;
+}
+#links a:hover, #menu a:hover{
 	padding: 2.5px;
 }
-#main {
-	background-size: cover;
-	overflow: hidden;
-	display: inline-block;
+#links a:hover, #menu a:hover, #textMain{
+	color: #CD5C5C;
+	border: solid 2.5px #CD5C5C;
+}
+#main, #topName{
 	text-align: center;
 }
 #main img{
@@ -38,74 +40,42 @@ body {
 	height: 100vh;
 }
 #menu{
-	display: flex;
 	margin: 0 auto;
-	justify-content: center;
-	position: relative;
 	width: 80%;
-
+}
+#menu, .title {
+	justify-content: center;
 }
 #menu a{
-	border: solid 2px black;
-	font-family: Arial, Helvetica;
 	font-size: 1.5vw;
 	margin-right: 2vw;
 	margin-left: 2vw;
-	color: black;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	padding: 3px;
-	position: relative;
 }
-
-#menu a:hover{
-	color: #CD5C5C;
-	border: solid 2.5px #CD5C5C;
-	padding: 2.5px;
-
+#menu a, #resume {
+	font-family: Arial, Helvetica;
+	border: solid 2px black;
+	color: black;
 }
 #name {
 	font-size: 3vw;
 }
 #resume{
-	border: solid 2px black;
-	position: absolute;
-	font-family: Arial, Helvetica;
 	font-size: 1vw;
-	color: black;
 	padding: 3px;
 	margin-left: 94%;
 }
 #textMain{
-	border: solid 3px #CD5C5C;
 	font-size: 2vw;
-	position: absolute;
 	top: 30%;
 	left: 24%;
-	color: #CD5C5C;
-	font-family: "Courier New", Courier, monospace;
-	font-weight: 500;
 }
-#topName {
-	text-align: center;
-	font-size: 3vw;
-	font-family: "Courier New", Courier, monospace;
-	margin: 0;
-	font-weight: 100;
-}
-/* || END HOME PAGE */
-
-/* ||  ABOUT ME */
-#about-text{
-	color: black;
-	
-	margin-top: 0;
+#textMain, #topName, .title{
 	font-family: "Courier New", Courier, monospace;
 }
 .title {
-	display: flex;
-	font-family: "Courier New", Courier, monospace;
-	justify-content: center;
 	align-items: center;
 	white-space: nowrap;
 
@@ -118,6 +88,20 @@ body {
 	margin: 0 15px;
 
 }
+#topName {
+	font-size: 3vw;
+	margin: 0;
+	font-weight: 100;
+}
+/* || END HOME PAGE AND TITLES*/
+
+/* ||  ABOUT ME */
+#about-text{
+	color: black;
+	margin-top: 0;
+	font-family: "Courier New", Courier, monospace;
+}
+
 #goals-text {
 	text-align: center;
 	width: 70%;
@@ -162,8 +146,3 @@ body {
 
 /* ||  CONTACT */
 /* ||  END CONTACT */
-
-
-
-
-
