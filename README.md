@@ -3,7 +3,13 @@ Josephine Mills Personal Website
 Created June 12, 2020
 Updated June 24, 2020
 
+---I created the website using Sublime Text---
+
+---Why I created this website---
+
 I created a personal website to demonstrate my programming skills to potential employers. I took in-person summer courses to stay on track after studying abroad so I do not have internship programming experience. I made this website to exemplify my coding skills and allow an employer to get to know me better than a resume can. 
+
+---Organization of website---
 
 I organized my website into 6 different html pages:
 
@@ -21,4 +27,3 @@ Contact- Includes my personal contact information and also includes an array of 
 
 The 6 html page titles are visible on every page. There is also a link to my linkedin profile and a resume download at the top right of the page which allows the user to click either of these from anywhere within the website. 
 
----I created the website using Sublime Text---
