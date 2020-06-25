@@ -155,14 +155,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
+	vertical-align: middle;
 }
-#graph li {
-	height: 20%;
-	min-height: 30px;
+.graph-skill, #axis-line, #axis{
+	height: 30px;
 	color: white;
 	font-size: 125%;
 	text-align: left;
 	margin-top: 5px;
+	padding-top: 5px;
 }
 
 #axis, #axis-line{
