@@ -1,13 +1,13 @@
 Josephine Mills Personal Website 
 
 Created June 12, 2020
-Updated June 24, 2020
+Updated June 29, 2020
 
 ---I created the website using Sublime Text---
 
 ---Why I created this website---
 
-I created a personal website to demonstrate my programming skills to potential employers. I took in-person summer courses to stay on track after studying abroad so I do not have internship programming experience. I made this website to exemplify my coding skills and allow an employer to get to know me better than a resume can. 
+I created a personal website to demonstrate my programming skills to potential employers. I took my first prorgamming course in C code in spring 2017 and fell in love with the creativity and problem solving behind software. This led me to declare my major in ECE and since then I have learned and created software in many different languages with one of my favorite areas of focus being web development.  I made this website to exemplify my coding skills and allow an employer to get to know me better than a resume can. 
 
 ---Organization of website---
 
