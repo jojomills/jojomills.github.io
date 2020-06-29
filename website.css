@@ -140,13 +140,207 @@ body {
 /* ||  END ABOUT ME */
 
 /* ||  EDUCATION */
+#arizona, #wildcat{
+	min-width: 782px;
+}
+#arizona-text {
+	font-family: "Courier New", Courier, monospace;
+	position: relative; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+#arizona-text, #wildcat{
+	text-align: center;
+	width: 100%;
+}
+#sunset {
+	width: 100vw;
+	height: 100vh;
+	min-width: 782px;
+	min-height: 702px;
+}
+#sunset, #wildcat {
+	position: absolute;
+	position: absolute;
+} 
+#wildcat img {
+	width: 85px;
+}
 /* ||  END EDUCATION */
 
 /* ||  SKILLS */
-/* ||  END SKILLSE */
+
+#all-skills {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+}
+#all-skills, #skill-icons{
+	display: flex;
+	justify-content: space-around;
+}
+#all-skills h1 {
+	margin-top: 0;
+	font-size: 175%;
+}
+#axis, #axis-line{
+	display: flex;
+	justify-content: space-between;
+}
+#axis div{
+	color: black;
+	font-size: 60%;
+	margin-top: -20px;
+}
+#axis-line div{
+	height: 10px;
+	width: 100%;
+	border-bottom: solid 2px black; 
+	border-left: solid 2px black; 
+}
+#graph {
+	list-style: none;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	vertical-align: middle;
+}
+.graph-skill, #axis-line, #axis{
+	height: 30px;
+	color: white;
+	font-size: 125%;
+	text-align: left;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+#skill-icons {
+	flex-wrap: wrap;
+}
+#skill-icons div {
+	width: 170px;
+	font-size: 17px;
+}
+#skill-icons img {
+	width: 90px;
+	height: 90px;	
+}
+#skills-mention a{
+	color: grey;
+	text-decoration: none;
+}
+#personal-skills {
+	margin-left: 5%;
+	min-width: 340px;
+	max-width: 510px;
+}
+#technical-skills {
+	width: 55%;
+}
+/* ||  END SKILLS */
 
 /* ||  EXPERIENCE */
+
+#allExperience {
+	margin-top: 0;
+}
+#allExperience, .text-and-pic{
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-family: "Courier New", Courier, monospace;
+}
+.experience-pic {
+	border: solid 2px black;
+	width: 400px;
+	height: 450px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.experienceText {
+	position: absolute;
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	-o-opacity: 0;
+	opacity: 0;
+}
+.experienceText p{
+	margin-top: 5px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+.experience-list {
+	list-style-type: circle;
+	text-align: left;
+	padding-left: 30px;
+	margin-right: 10px;
+}
+.experienceText, .text-and-pic{
+	width: 324px;
+	height: 324px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text-and-pic{
+	margin-top: 30px;
+	border: solid 2px black;
+}
+.text-and-pic img{
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	transition: 0.5s;	
+}
+.text-and-pic:hover img{
+	-webkit-opacity: 0.1;
+	-moz-opacity: 0.1;
+	-o-opacity: 0.1;
+	opacity: 0.1;
+	transition: 0.3s;
+}
+.text-and-pic:hover .experienceText{
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	-o-opacity: 1;
+	opacity: 1;
+}
 /* ||  END EXPERIENCE */
 
 /* ||  CONTACT */
+
+#contact-info{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 170%;
+
+}
+#extra-pics {
+	display: inline-flex; 
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#extra-pics div {
+	width: 205px;
+	height: 205px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	background-size: 100%;
+	background-position: center center;
+
+}
+#extra-pics div:hover{
+	background-size: 115%;
+	filter: none;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	background-position: center center;
+}
 /* ||  END CONTACT */
