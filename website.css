@@ -217,6 +217,14 @@ body {
 	margin-top: 5px;
 	padding-top: 5px;
 }
+
+/* adding hover to display extra information, need to integrate js
+.graph-skill:hover { /
+	height: 35px;
+	padding-top: 12px;
+}
+*/
+
 #skill-icons {
 	flex-wrap: wrap;
 }
